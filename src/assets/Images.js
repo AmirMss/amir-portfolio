@@ -1,0 +1,17 @@
+export const Images = {
+	logo: require("./images/logo.png"),
+	logoWhite: require("./images/logo-white.png"),
+	profile: require("./images/profile.jpeg"),
+	dot: require("./images/dot.png"),
+	projectIcon: require("./images/project-icon.png"),
+	clockIcon: require("./images/clock-icon.png"),
+	fiverr: require("./images/fiver.png"),
+	portfolio1: require("./images/portfolio1.png"),
+	portfolio2: require("./images/portfolio2.png"),
+	portfolio3: require("./images/portfolio3.png"),
+	portfolio4: require("./images/portfolio4.png"),
+	portfolio5: require("./images/portfolio5.png"),
+	portfolio6: require("./images/portfolio6.png"),
+	portfolio7: require("./images/portfolio7.png"),
+	portfolio8: require("./images/portfolio8.png"),
+};

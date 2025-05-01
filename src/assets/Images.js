@@ -14,4 +14,9 @@ export const Images = {
 	portfolio6: require("./images/portfolio6.png"),
 	portfolio7: require("./images/portfolio7.png"),
 	portfolio8: require("./images/portfolio8.png"),
+	Executive: require("./images/Executive.png"),
+	Executive2: require("./images/Executive2.png"),
+	Executive3: require("./images/Executive3.png"),
+	Executive4: require("./images/Executive4.png"),
+	Executive5: require("./images/Executive5.png"),	
 };

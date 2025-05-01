@@ -49,10 +49,10 @@ function Home() {
 
 	const portfolio = [
 		{
-			img: Images.portfolio1,
-			title: "Graphic Design",
-			description: "Lorem ipsum dolor sit amet...",
-			images: [Images.portfolio1, Images.portfolio2, Images.portfolio3],
+			img: Images.Executive,
+			title: "📊 Project Title: Executive Dashboard for Real-Time Strategic Oversight",
+			description: "I led the development of a real-time Power BI dashboard designed for company executives to track team performance, project progress, and procurement savings across all business units. The dashboard aggregates and harmonizes data from multiple sources including Snowflake, SharePoint, and Excel-based reporting systems. To ensure consistency and accuracy, I implemented a robust data normalization pipeline using Python, allowing for seamless integration of heterogeneous datasets. On the front end, I built dynamic visuals and filters, leveraging advanced DAX measures to calculate KPIs, trend analyses, and savings forecasts. This solution enables leadership to access a unified view of operational and financial performance on a single, interactive interface—greatly improving strategic decision-making and visibility across the organization.",
+			images: [Images.Executive, Images.Executive2, Images.Executive3, Images.Executive4, Images.Executive5], 
 		},
 		{
 			img: Images.portfolio2,
@@ -1033,8 +1033,11 @@ function Home() {
 										image={item.img}
 										sx={{
 											width: "100%",
-											height: "100%",
-											objectFit: "cover",
+											height: 300,
+											borderRadius: 2,
+											objectFit: "contain",
+											backgroundColor: "#fff",
+											borderRadius: 2,
 										}}
 									/>
 
@@ -1066,10 +1069,10 @@ function Home() {
 											}}
 										>
 											<Typography component="p" sx={{ fontSize: 16 }}>
-												Dashboard Project
+												{item.title}
 											</Typography>
 											<Typography variant="h5" sx={{ fontSize: 21 }}>
-												The best way to impress your web
+												{item.description}
 											</Typography>
 										</Box>
 									</Box>
@@ -1113,9 +1116,12 @@ function Home() {
 											image={img}
 											sx={{
 												width: "100%",
-												height: 300,
+												Height: "auto",
+												maxHeight: "60vh",
 												borderRadius: 2,
-												objectFit: "cover",
+												objectFit: "contain",
+												borderRadius: 2,
+												backgroundColor: "#fff",
 											}}
 										/>
 									</SwiperSlide>
